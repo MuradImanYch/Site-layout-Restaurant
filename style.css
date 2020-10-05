@@ -1,0 +1,192 @@
+.container {
+	max-width: 1110px;
+	margin: auto;
+}
+header {
+	height: 100vh;
+	background: #0b0c0d url('img/header.jpg') center/cover;
+	color: #fff;
+}
+header .container {
+	position: relative;
+}
+#logo, #topmenu, #title {
+	position: absolute;
+}
+#logo {
+	top: 62px;
+}
+#topmenu {
+	top: 67px;
+	right: 0;
+} 
+#topmenu li {
+	display: inline-block;
+	padding: 0 20px;
+}
+#topmenu a {
+	font: 1em Verdana;
+	color: #fff;
+}
+#title {
+	top: 40vh;
+	text-align: center;
+}
+#title h1 {
+	font: 4.5em Lato;
+}
+#title p {
+	padding: 30px 15%;
+}
+p {
+	font: 1em/2 Verdana;
+}
+#story, #recipe, #menu {
+	padding: 120px 0;
+}
+#story {
+	background: #962323;
+}
+#story .container {
+	overflow: auto;
+}
+#story img {
+	width: 40%;
+	margin: 0 10% 0 0;
+	float: left;
+}
+#story article {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+h2 { 
+	font: 3.5em Cookie;
+}
+#recipe {
+	background: #25262a;
+}
+#menu {
+	background: #f3f4f7;
+}
+#footer1 {
+	padding: 85px 0;
+	background: #25262a;
+	position: relative;
+}
+#footer2 {
+	padding: 60px 0 40px 0;
+	background: #16171b;
+}
+.ftdiv p{
+	font-size: 26px;
+	font-family: Arial;
+	color: #fff;
+	margin: 0 0 57px 0;
+}
+.ftdiv .ftp{
+	font-size: 14px;
+	margin: 0;
+}
+.ftdiv{
+	display: inline-block;
+	padding: 0 70px 0 0;
+}
+#p{
+	position: absolute;
+	top: 85px;
+}
+.ftdiv ul{
+	position: absolute;
+	top: 200px;
+}
+.ftdiv ul li{
+	margin-bottom: 14px;
+	margin-left: 5px;
+	color: #fff;
+}
+.ftdiv ul li i{
+	margin-right: 20px;
+}
+.ftdiv ul li i{
+	color: #c0235a;
+}
+#footer2{
+	padding-bottom: 60px
+}
+#footer2 .container span{
+	font-size: 17px;
+	color: #8b8b8d;
+	margin-left: 14px;
+	float: left;
+}
+#footer2 .container #ftli li{
+	display: inline;
+	padding-right: 30px;
+}
+#footer2 .container #ftli {
+	margin-left: 140px;
+	float: left;
+}
+#footer2 .container #ftli li a{
+	font-size: 17px;
+	color: #8b8b8d;
+}
+#socNet li{
+	float: left;
+	display: inline;
+	margin-left: 20px;
+}
+#socNet {
+	margin-left: 80px;
+	float: left;
+}
+#socNet li a{
+	color: #8b8b8d;
+}
+#footer2 .container #ftli li a:hover{
+	color: #c0235a;
+}
+#footer2 .container #socNet #fb:hover{
+	color: darkblue;
+}
+#footer2 .container #socNet #be:hover{
+	color: blue;
+}
+#footer2 .container #socNet #tw:hover{
+	color: lightblue;
+}
+#footer2 .container #socNet #in:hover{
+	color: #c0235a;
+}
+#footer2 .container #socNet #pr:hover{
+	color: red;
+}
+#footer2 .container #socNet #bas:hover{
+	color: brown;
+}
+#contactusText{
+	float: left;
+	padding-bottom: 72px;
+}
+@media only screen and (max-width: 768px) {
+	#title h1 { font-size: 2em;	}
+	#title p { line-height: 1.5; }
+	#topmenu { width: 100%; text-align: center; }
+	#topmenu li { display: block; }
+	#logo { top: 30px; left: 50%; 
+		transform: translate(-50%, 0);
+	}
+	#footer1 .container, #footer2 .container, #contactusText{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
